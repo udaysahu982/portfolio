@@ -1,0 +1,483 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            background-color: var(--secondary-color);
+        }
+        /* font =
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+        
+         :root {
+            --primary-color: #212121;
+            --secondary-color: #ffffff;
+            --tern-color: rgba(0, 0, 0, 0.3);
+            ;
+            /*  */
+        }
+        
+        .dark-theme {
+            --primary-color: white;
+            --secondary-color: black;
+        }
+        
+        #icon {
+            margin-left: 3rem;
+            width: 3rem;
+        }
+        
+        .nav-bar {
+            padding-top: 1.3rem;
+            /* border: 2px solid black; */
+            height: 3rem;
+            display: flex;
+        }
+        
+        .nav-bar .left-nav {
+            display: flex;
+            /* border: 2px solid rgb(0, 0, 0); */
+            /* height: 3rem; */
+            background-color: var(--secondary-color);
+            width: 20rem;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .left-nav .name {
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Stylish', serif;
+            font-family: 'Ubuntu', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 800;
+            font-size: 2.4rem;
+        }
+        
+        .left-nav .name a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        .left-nav .name a:hover {
+            color: red;
+        }
+        
+        .list {
+            display: flex;
+            padding: 0px;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        
+        .list-item {
+            padding-left: 5rem;
+        }
+        
+        .list-item a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 1.8rem;
+        }
+        
+        .list-item a:hover {
+            color: violet;
+        }
+        /* container section */
+        
+        .container {
+            padding-top: 4rem;
+            display: flex;
+        }
+        
+        .left-section {
+            /* display: flex; */
+            /* border: 2px solid black; */
+            color: var(--primary-color);
+            width: 50rem;
+            height: 37rem;
+            padding-top: 8rem;
+        }
+        
+        .intro {
+            padding-left: 3rem;
+        }
+        
+        .left-section .intro h2 {
+            /* display: flex; */
+            font-size: 4rem;
+            font-family: 'Ubuntu', sans-serif;
+            justify-content: center;
+            color: blueviolet;
+        }
+        
+        .intro p {
+            padding-top: 3rem;
+            font-size: 2.4rem;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Stylish', serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .container .right-section {
+            display: flex;
+            float: right;
+        }
+        
+        .right-section .image {
+            padding-top: 1.8rem;
+            height: 40rem;
+            width: 50rem;
+        }
+        
+        .git {
+            color: black;
+        }
+        /* social media plateform buttons */
+        
+        .social-media-buttons {
+            display: flex;
+            /* background-color: blue; */
+            /* width: 4rem;
+    height: 4rem; */
+        }
+        
+        .social-media-buttons a {
+            font-size: 100px;
+            padding-left: 20px;
+        }
+        /* git-hub button */
+        /*     
+    .git {
+        border: 2px solid rgb(234, 0, 0);
+        height: 40px;
+        width: 40px;
+    }
+    
+    .git:hover {
+        background-color: darkblue;
+        padding: 2px;
+    } */
+        
+        .buttons {
+            display: flex;
+            /* background-color: red;
+    width: 19rem;
+    height: 3rem; */
+        }
+        
+        .btn {
+            background-color: rgb(141, 141, 169);
+            height: 3rem;
+            width: 14rem;
+            margin-left: 4rem;
+            border-radius: .5rem;
+        }
+        
+        .btn a {
+            background-color: rgb(141, 141, 169);
+            color: rgb(246, 255, 0);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        /* what i do tag 
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Stylish', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+        
+        .wid-section {
+            padding-top: 5rem;
+            display: flex;
+            margin-top: 4rem;
+        }
+        
+        .wid-img {
+            width: 40rem;
+            height: 35rem;
+        }
+        
+        .wid-right-section h2 {
+            color: var(--primary-color);
+            padding-top: 4rem;
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Stylish', serif;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 3.4rem;
+            padding-left: 3rem;
+            padding-bottom: 40px;
+        }
+        
+        .wid-right-section a {
+            color: var(--primary-color);
+        }
+        
+        .wid-right-section p {
+            color: var(--primary-color);
+            font-size: 31px;
+            width: 40rem;
+            text-align: center;
+        }
+        
+        .skill-section {
+            display: flex;
+        }
+        
+        .skill-section h1 {
+            color: var(--primary-color);
+            /* display: flex; */
+            text-align: center;
+            margin-top: 40px;
+            font-size: 70px;
+            margin-bottom: 6rem;
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Stylish', serif;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: underline;
+        }
+        /*         
+        .skill-area {
+            flex-direction: column;
+            padding: 0 20%;
+        } */
+        
+        .skill {
+            position: relative;
+            margin-bottom: 40px;
+        }
+        
+        .skill-area {
+            width: 55rem;
+        }
+        /* .left-skill-sec {
+            width: 80%;
+        } */
+        /* .right-skill-sec {
+            display: flex;
+            width: 20%;
+            height: 10rem;
+        } */
+        /* .right-skill-sec .skill-img {
+            height: 10rem;
+            width: 10rem;
+        } */
+        
+        .skill-title {
+            color: var(--primary-color);
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        /* :root {} */
+        /* .sk-bar {
+            color: wheat;
+        } */
+        
+        .skill-bar {
+            width: 100%;
+            background: var(--tern-color);
+            /* background: var(--primary-color); */
+            height: 40px;
+            z-index: 0;
+            border-radius: 100px;
+            position: absolute;
+        }
+        
+        .html-icon {
+            font-size: 60px;
+        }
+        
+        .css-icon {
+            font-size: 60px;
+        }
+        
+        .js-icon {
+            font-size: 60px;
+        }
+        
+        .java-icon {
+            font-size: 60px;
+        }
+        
+        .skill-fill {
+            background: blue;
+            height: 40px;
+            border-radius: 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 30px;
+            overflow: hidden;
+        }
+        
+        .skill-percent {
+            font-size: 30px;
+            background-color: blue;
+        }
+        
+        .html {
+            animation: html 2s;
+            width: 50%;
+        }
+        
+        .css {
+            animation: css 2s;
+            width: 70%;
+        }
+        
+        .js {
+            animation: js 2s;
+            width: 80%;
+        }
+        
+        .java {
+            animation: js 2s;
+            width: 80%;
+        }
+        
+        @keyframes html {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 50%;
+            }
+        }
+        
+        @keyframes css {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 70%;
+            }
+        }
+        
+        @keyframes js {
+            from {
+                width: 0px;
+            }
+            to {
+                width: 80%;
+            }
+        }
+        
+        @media only screen and (max-width: 750px) {
+            .skill-area {
+                padding: 0 5%;
+            }
+        }
+        /* Achievements and Certification  */
+        
+        .achevements {
+            display: flex;
+            padding-top: 5rem;
+        }
+        
+        .achievements h2 {
+            color: var(--primary-color);
+            font-size: 3rem;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            padding-left: 5rem;
+            padding-bottom: 4rem;
+        }
+        
+        .achievement-box {
+            display: flex;
+            /* border: 2px solid black; */
+            height: 20rem;
+            margin-bottom: 3rem;
+            /* background-color: blue; */
+        }
+        
+        .achi-box {
+            /* border: 2px solid black; */
+            width: 40rem;
+            margin-left: 4rem;
+            border-radius: 20px;
+        }
+        
+        .achi-img {
+            height: 20rem;
+            width: 40rem;
+            box-shadow: 10px 10px 10px lightblue;
+        }
+        
+        .contact-me2 {
+            display: flex;
+            height: 19rem;
+        }
+        
+        .prof-social-media {
+            /* border: 2px solid black; */
+            width: 80%;
+            height: 80%;
+            margin-top: 20px;
+        }
+        
+        .con-note {
+            font-size: 40px;
+        }
+        
+        .profile-section {
+            border: 12px solid rgb(68, 68, 226);
+            height: 280px;
+            width: 300px;
+            border-radius: 200px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        
+        .cont-img {
+            width: 300px;
+            height: 280px;
+            border-radius: 200px;
+        }
+        
+        .social2 {
+            padding-top: 2rem
+        }
+        
+        .con-note {
+            color: var(--primary-color);
+            font-size: 40px;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .cnt {
+            color: var(--primary-color);
+            text-decoration: underline;
+            font-size: 3.5rem;
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Stylish', serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .copyright {
+            color: var(--primary-color);
+            display: flex;
+            font-size: 2rem;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+        }
+        
+        .left-skill-section {}
